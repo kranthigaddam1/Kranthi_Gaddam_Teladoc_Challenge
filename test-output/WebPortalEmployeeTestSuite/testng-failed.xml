@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WebPortalEmployeeTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DeleteRowsTest(failed)">
+    <classes>
+      <class name="com.teladoc.test.DeleteRowsTest">
+        <methods>
+          <include name="DeleteRow"/>
+          <include name="init"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.teladoc.test.DeleteRowsTest -->
+    </classes>
+  </test> <!-- DeleteRowsTest(failed) -->
+</suite> <!-- Failed suite [WebPortalEmployeeTestSuite] -->
